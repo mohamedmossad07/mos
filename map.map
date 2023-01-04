@@ -1,0 +1,1083 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 obj/gdt.o
+ .comment       0x0000000000000000       0x2c obj/gdt.o
+ .group         0x0000000000000000        0xc obj/drivers/driver.o
+ .group         0x0000000000000000        0x8 obj/drivers/driver.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/drivers/driver.o
+ .comment       0x0000000000000000       0x2c obj/drivers/driver.o
+ .group         0x0000000000000000        0x8 obj/drivers/driverManager.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/drivers/driverManager.o
+ .comment       0x0000000000000000       0x2c obj/drivers/driverManager.o
+ .group         0x0000000000000000        0x8 obj/common/helper.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/common/helper.o
+ .comment       0x0000000000000000       0x2c obj/common/helper.o
+ .group         0x0000000000000000        0xc obj/hardware/port.o
+ .group         0x0000000000000000        0xc obj/hardware/port.o
+ .group         0x0000000000000000        0xc obj/hardware/port.o
+ .group         0x0000000000000000        0xc obj/hardware/port.o
+ .group         0x0000000000000000        0x8 obj/hardware/port.o
+ .group         0x0000000000000000        0x8 obj/hardware/port.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/hardware/port.o
+ .comment       0x0000000000000000       0x2c obj/hardware/port.o
+ .group         0x0000000000000000        0x8 obj/hardware/pci.o
+ .group         0x0000000000000000        0x8 obj/hardware/pci.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/hardware/pci.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/hardware/pci.o
+ .comment       0x0000000000000000       0x2c obj/hardware/pci.o
+ .group         0x0000000000000000        0x8 obj/hardware/PCIDeviceDescriptor.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/hardware/PCIDeviceDescriptor.o
+ .comment       0x0000000000000000       0x2c obj/hardware/PCIDeviceDescriptor.o
+ .group         0x0000000000000000        0xc obj/hardware/interrupts.o
+ .group         0x0000000000000000        0x8 obj/hardware/interrupts.o
+ .group         0x0000000000000000        0x8 obj/hardware/interrupts.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/hardware/interrupts.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/hardware/interrupts.o
+ .comment       0x0000000000000000       0x2c obj/hardware/interrupts.o
+ .comment       0x0000000000000000       0x2c obj/hardware/BAR.o
+ .group         0x0000000000000000        0xc obj/drivers/Keyboard.o
+ .group         0x0000000000000000        0x8 obj/drivers/Keyboard.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/drivers/Keyboard.o
+ .comment       0x0000000000000000       0x2c obj/drivers/Keyboard.o
+ .group         0x0000000000000000        0xc obj/drivers/keyboardEventHandler.o
+ .group         0x0000000000000000        0x8 obj/drivers/keyboardEventHandler.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/drivers/keyboardEventHandler.o
+ .comment       0x0000000000000000       0x2c obj/drivers/keyboardEventHandler.o
+ .group         0x0000000000000000        0xc obj/drivers/Mouse.o
+ .group         0x0000000000000000        0x8 obj/drivers/Mouse.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/drivers/Mouse.o
+ .comment       0x0000000000000000       0x2c obj/drivers/Mouse.o
+ .group         0x0000000000000000        0xc obj/drivers/mouseEventHandler.o
+ .group         0x0000000000000000        0x8 obj/drivers/mouseEventHandler.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/drivers/mouseEventHandler.o
+ .comment       0x0000000000000000       0x2c obj/drivers/mouseEventHandler.o
+ .group         0x0000000000000000        0xc obj/drivers/vga.o
+ .group         0x0000000000000000        0x8 obj/drivers/vga.o
+ .group         0x0000000000000000        0x8 obj/drivers/vga.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/drivers/vga.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/drivers/vga.o
+ .comment       0x0000000000000000       0x2c obj/drivers/vga.o
+ .group         0x0000000000000000        0xc obj/drivers/AMDNetCard.o
+ .group         0x0000000000000000        0xc obj/drivers/AMDNetCard.o
+ .group         0x0000000000000000        0x8 obj/drivers/AMDNetCard.o
+ .group         0x0000000000000000        0x8 obj/drivers/AMDNetCard.o
+ .group         0x0000000000000000        0x8 obj/drivers/AMDNetCard.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/drivers/AMDNetCard.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/drivers/AMDNetCard.o
+ .comment       0x0000000000000000       0x2c obj/drivers/AMDNetCard.o
+ .group         0x0000000000000000        0x8 obj/drivers/ATA.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/drivers/ATA.o
+ .comment       0x0000000000000000       0x2c obj/drivers/ATA.o
+ .group         0x0000000000000000        0xc obj/gui/widget.o
+ .group         0x0000000000000000        0x8 obj/gui/widget.o
+ .group         0x0000000000000000        0x8 obj/gui/widget.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/gui/widget.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/gui/widget.o
+ .comment       0x0000000000000000       0x2c obj/gui/widget.o
+ .group         0x0000000000000000        0xc obj/gui/CompositeWidget.o
+ .group         0x0000000000000000        0x8 obj/gui/CompositeWidget.o
+ .group         0x0000000000000000        0x8 obj/gui/CompositeWidget.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/gui/CompositeWidget.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/gui/CompositeWidget.o
+ .comment       0x0000000000000000       0x2c obj/gui/CompositeWidget.o
+ .group         0x0000000000000000        0xc obj/gui/window.o
+ .group         0x0000000000000000        0x8 obj/gui/window.o
+ .group         0x0000000000000000        0x8 obj/gui/window.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/gui/window.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/gui/window.o
+ .comment       0x0000000000000000       0x2c obj/gui/window.o
+ .group         0x0000000000000000        0xc obj/gui/desktop.o
+ .group         0x0000000000000000        0x8 obj/gui/desktop.o
+ .group         0x0000000000000000        0x8 obj/gui/desktop.o
+ .group         0x0000000000000000        0x8 obj/gui/desktop.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/gui/desktop.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/gui/desktop.o
+ .comment       0x0000000000000000       0x2c obj/gui/desktop.o
+ .group         0x0000000000000000        0x8 obj/multitasking.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/multitasking.o
+ .comment       0x0000000000000000       0x2c obj/multitasking.o
+ .group         0x0000000000000000        0xc obj/syscall.o
+ .group         0x0000000000000000        0x8 obj/syscall.o
+ .group         0x0000000000000000        0x8 obj/syscall.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/syscall.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/syscall.o
+ .comment       0x0000000000000000       0x2c obj/syscall.o
+ .group         0x0000000000000000        0x8 obj/MemoryManager.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/MemoryManager.o
+ .comment       0x0000000000000000       0x2c obj/MemoryManager.o
+ .comment       0x0000000000000000       0x2c obj/MemoryChunk.o
+ .group         0x0000000000000000        0xc obj/net/DLLayer/etherframe.o
+ .group         0x0000000000000000        0xc obj/net/DLLayer/etherframe.o
+ .group         0x0000000000000000        0x8 obj/net/DLLayer/etherframe.o
+ .group         0x0000000000000000        0x8 obj/net/DLLayer/etherframe.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/net/DLLayer/etherframe.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/net/DLLayer/etherframe.o
+ .comment       0x0000000000000000       0x2c obj/net/DLLayer/etherframe.o
+ .group         0x0000000000000000        0xc obj/net/NetLayer/arp.o
+ .group         0x0000000000000000        0x8 obj/net/NetLayer/arp.o
+ .group         0x0000000000000000        0x8 obj/net/NetLayer/arp.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/net/NetLayer/arp.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/net/NetLayer/arp.o
+ .comment       0x0000000000000000       0x2c obj/net/NetLayer/arp.o
+ .group         0x0000000000000000        0xc obj/net/NetLayer/ip4.o
+ .group         0x0000000000000000        0xc obj/net/NetLayer/ip4.o
+ .group         0x0000000000000000        0x8 obj/net/NetLayer/ip4.o
+ .group         0x0000000000000000        0x8 obj/net/NetLayer/ip4.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/net/NetLayer/ip4.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/net/NetLayer/ip4.o
+ .comment       0x0000000000000000       0x2c obj/net/NetLayer/ip4.o
+ .group         0x0000000000000000        0xc obj/net/NetLayer/icmp.o
+ .group         0x0000000000000000        0x8 obj/net/NetLayer/icmp.o
+ .group         0x0000000000000000        0x8 obj/net/NetLayer/icmp.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/net/NetLayer/icmp.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/net/NetLayer/icmp.o
+ .comment       0x0000000000000000       0x2c obj/net/NetLayer/icmp.o
+ .group         0x0000000000000000        0xc obj/net/TPLayer/udp.o
+ .group         0x0000000000000000        0xc obj/net/TPLayer/udp.o
+ .group         0x0000000000000000        0xc obj/net/TPLayer/udp.o
+ .group         0x0000000000000000        0x8 obj/net/TPLayer/udp.o
+ .group         0x0000000000000000        0x8 obj/net/TPLayer/udp.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/net/TPLayer/udp.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/net/TPLayer/udp.o
+ .comment       0x0000000000000000       0x2c obj/net/TPLayer/udp.o
+ .group         0x0000000000000000        0xc obj/net/TPLayer/tcp.o
+ .group         0x0000000000000000        0xc obj/net/TPLayer/tcp.o
+ .group         0x0000000000000000        0xc obj/net/TPLayer/tcp.o
+ .group         0x0000000000000000        0x8 obj/net/TPLayer/tcp.o
+ .group         0x0000000000000000        0x8 obj/net/TPLayer/tcp.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/net/TPLayer/tcp.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/net/TPLayer/tcp.o
+ .comment       0x0000000000000000       0x2c obj/net/TPLayer/tcp.o
+ .group         0x0000000000000000        0xc obj/kernel.o
+ .group         0x0000000000000000        0xc obj/kernel.o
+ .group         0x0000000000000000        0xc obj/kernel.o
+ .group         0x0000000000000000        0x8 obj/kernel.o
+ .group         0x0000000000000000        0x8 obj/kernel.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 obj/kernel.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 obj/kernel.o
+ .comment       0x0000000000000000       0x2c obj/kernel.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000100000                . = 0x100000
+
+.text           0x0000000000100000     0x84c4
+ *(.multiboot)
+ .multiboot     0x0000000000100000        0xc obj/loader.o
+ *(.text)
+ .text          0x000000000010000c       0x10 obj/loader.o
+                0x000000000010000c                loader
+ .text          0x000000000010001c      0x292 obj/gdt.o
+                0x000000000010001c                mos::GlobalDescriptorTable::GlobalDescriptorTable()
+                0x000000000010001c                mos::GlobalDescriptorTable::GlobalDescriptorTable()
+                0x00000000001000a2                mos::GlobalDescriptorTable::~GlobalDescriptorTable()
+                0x00000000001000a2                mos::GlobalDescriptorTable::~GlobalDescriptorTable()
+                0x00000000001000b2                mos::GlobalDescriptorTable::DataSegmentSelector()
+                0x00000000001000c6                mos::GlobalDescriptorTable::CodeSegmentSelector()
+                0x00000000001000da                mos::GlobalDescriptorTable::SegmentDescriptor::SegmentDescriptor(unsigned int, unsigned int, unsigned char)
+                0x00000000001000da                mos::GlobalDescriptorTable::SegmentDescriptor::SegmentDescriptor(unsigned int, unsigned int, unsigned char)
+                0x00000000001001b6                mos::GlobalDescriptorTable::SegmentDescriptor::Base()
+                0x000000000010022c                mos::GlobalDescriptorTable::SegmentDescriptor::Limit()
+ .text          0x00000000001002ae       0x6c obj/drivers/driver.o
+                0x00000000001002ae                mos::drivers::Driver::Driver()
+                0x00000000001002ae                mos::drivers::Driver::Driver()
+                0x00000000001002ca                mos::drivers::Driver::~Driver()
+                0x00000000001002ca                mos::drivers::Driver::~Driver()
+                0x00000000001002e6                mos::drivers::Driver::install()
+                0x00000000001002f6                mos::drivers::Driver::uninstall()
+                0x0000000000100306                mos::drivers::Driver::reset()
+ .text          0x000000000010031a       0xa0 obj/drivers/driverManager.o
+                0x000000000010031a                mos::drivers::DriverManager::DriverManager()
+                0x000000000010031a                mos::drivers::DriverManager::DriverManager()
+                0x0000000000100332                mos::drivers::DriverManager::addDriver(mos::drivers::Driver*)
+                0x0000000000100364                mos::drivers::DriverManager::installAll()
+ .text          0x00000000001003ba       0x88 obj/common/helper.o
+                0x00000000001003ba                mos::common::clearScreen()
+ .text          0x0000000000100442      0x2cf obj/hardware/port.o
+                0x0000000000100442                mos::hardware::port::port(unsigned short)
+                0x0000000000100442                mos::hardware::port::port(unsigned short)
+                0x0000000000100466                mos::hardware::port::~port()
+                0x0000000000100466                mos::hardware::port::~port()
+                0x0000000000100476                mos::hardware::port8Bit::port8Bit(unsigned short)
+                0x0000000000100476                mos::hardware::port8Bit::port8Bit(unsigned short)
+                0x00000000001004b4                mos::hardware::port8Bit::~port8Bit()
+                0x00000000001004b4                mos::hardware::port8Bit::~port8Bit()
+                0x00000000001004de                mos::hardware::port8Bit::read()
+                0x0000000000100502                mos::hardware::port8Bit::write(unsigned char)
+                0x0000000000100528                mos::hardware::port8BitSlow::port8BitSlow(unsigned short)
+                0x0000000000100528                mos::hardware::port8BitSlow::port8BitSlow(unsigned short)
+                0x0000000000100564                mos::hardware::port8BitSlow::~port8BitSlow()
+                0x0000000000100564                mos::hardware::port8BitSlow::~port8BitSlow()
+                0x000000000010058c                mos::hardware::port8BitSlow::write(unsigned char)
+                0x00000000001005b6                mos::hardware::port16Bit::port16Bit(unsigned short)
+                0x00000000001005b6                mos::hardware::port16Bit::port16Bit(unsigned short)
+                0x00000000001005f4                mos::hardware::port16Bit::~port16Bit()
+                0x00000000001005f4                mos::hardware::port16Bit::~port16Bit()
+                0x000000000010061e                mos::hardware::port16Bit::read()
+                0x0000000000100644                mos::hardware::port16Bit::write(unsigned short)
+                0x000000000010066c                mos::hardware::port32Bit::port32Bit(unsigned short)
+                0x000000000010066c                mos::hardware::port32Bit::port32Bit(unsigned short)
+                0x00000000001006aa                mos::hardware::port32Bit::~port32Bit()
+                0x00000000001006aa                mos::hardware::port32Bit::~port32Bit()
+                0x00000000001006d4                mos::hardware::port32Bit::read()
+                0x00000000001006f6                mos::hardware::port32Bit::write(unsigned int)
+ .text          0x0000000000100711      0x1b8 obj/hardware/interruptstubs.o
+                0x00000000001007d1                mos::hardware::InterruptManager::handelInterruptRequest0x00()
+                0x00000000001007df                mos::hardware::InterruptManager::handelInterruptRequest0x01()
+                0x00000000001007ed                mos::hardware::InterruptManager::handelInterruptRequest0x02()
+                0x00000000001007fb                mos::hardware::InterruptManager::handelInterruptRequest0x03()
+                0x0000000000100809                mos::hardware::InterruptManager::handelInterruptRequest0x04()
+                0x0000000000100817                mos::hardware::InterruptManager::handelInterruptRequest0x05()
+                0x0000000000100825                mos::hardware::InterruptManager::handelInterruptRequest0x06()
+                0x0000000000100830                mos::hardware::InterruptManager::handelInterruptRequest0x07()
+                0x000000000010083b                mos::hardware::InterruptManager::handelInterruptRequest0x08()
+                0x0000000000100846                mos::hardware::InterruptManager::handelInterruptRequest0x09()
+                0x0000000000100851                mos::hardware::InterruptManager::handelInterruptRequest0x0A()
+                0x000000000010085c                mos::hardware::InterruptManager::handelInterruptRequest0x0B()
+                0x0000000000100867                mos::hardware::InterruptManager::handelInterruptRequest0x0C()
+                0x0000000000100872                mos::hardware::InterruptManager::handelInterruptRequest0x0D()
+                0x000000000010087d                mos::hardware::InterruptManager::handelInterruptRequest0x0E()
+                0x0000000000100888                mos::hardware::InterruptManager::handelInterruptRequest0x0F()
+                0x0000000000100893                mos::hardware::InterruptManager::handelInterruptRequest0x31()
+                0x000000000010089e                mos::hardware::InterruptManager::handelInterruptRequest0x80()
+                0x00000000001008c8                mos::hardware::InterruptManager::ignoreInterruptRequest()
+ *fill*         0x00000000001008c9        0x1 
+ .text          0x00000000001008ca      0x6b7 obj/hardware/pci.o
+                0x00000000001008ca                mos::hardware::PCI::PCI()
+                0x00000000001008ca                mos::hardware::PCI::PCI()
+                0x000000000010090e                mos::hardware::PCI::~PCI()
+                0x000000000010090e                mos::hardware::PCI::~PCI()
+                0x0000000000100948                mos::hardware::PCI::read(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00000000001009f0                mos::hardware::PCI::write(unsigned char, unsigned char, unsigned char, unsigned char, unsigned int)
+                0x0000000000100a86                mos::hardware::PCI::isDeviceHasFunc(unsigned char, unsigned char)
+                0x0000000000100aca                mos::hardware::PCI::selectDrivers(mos::drivers::DriverManager*, mos::hardware::InterruptManager*)
+                0x0000000000100c70                mos::hardware::PCI::getDescriptor(unsigned char, unsigned char, unsigned char)
+                0x0000000000100dde                mos::hardware::PCI::getDriver(mos::hardware::PCIDeviceDescriptor, mos::hardware::InterruptManager*)
+                0x0000000000100eaa                mos::hardware::PCI::getBar(unsigned char, unsigned char, unsigned char, unsigned short)
+ *fill*         0x0000000000100f81        0x1 
+ .text          0x0000000000100f82       0x20 obj/hardware/PCIDeviceDescriptor.o
+                0x0000000000100f82                mos::hardware::PCIDeviceDescriptor::PCIDeviceDescriptor()
+                0x0000000000100f82                mos::hardware::PCIDeviceDescriptor::PCIDeviceDescriptor()
+                0x0000000000100f92                mos::hardware::PCIDeviceDescriptor::~PCIDeviceDescriptor()
+                0x0000000000100f92                mos::hardware::PCIDeviceDescriptor::~PCIDeviceDescriptor()
+ .text          0x0000000000100fa2      0x744 obj/hardware/interrupts.o
+                0x0000000000100fa2                mos::hardware::InterruptHandler::InterruptHandler(unsigned char, mos::hardware::InterruptManager*)
+                0x0000000000100fa2                mos::hardware::InterruptHandler::InterruptHandler(unsigned char, mos::hardware::InterruptManager*)
+                0x0000000000100fea                mos::hardware::InterruptHandler::~InterruptHandler()
+                0x0000000000100fea                mos::hardware::InterruptHandler::~InterruptHandler()
+                0x0000000000101034                mos::hardware::InterruptHandler::handel(unsigned int)
+                0x0000000000101046                mos::hardware::InterruptManager::setIDTentry(unsigned char, unsigned short, void (*)(), unsigned char, unsigned char)
+                0x00000000001010e4                mos::hardware::InterruptManager::InterruptManager(mos::GlobalDescriptorTable*, mos::TaskManager*)
+                0x00000000001010e4                mos::hardware::InterruptManager::InterruptManager(mos::GlobalDescriptorTable*, mos::TaskManager*)
+                0x00000000001014da                mos::hardware::InterruptManager::~InterruptManager()
+                0x00000000001014da                mos::hardware::InterruptManager::~InterruptManager()
+                0x0000000000101542                mos::hardware::InterruptManager::activate()
+                0x0000000000101580                mos::hardware::InterruptManager::deactivate()
+                0x00000000001015a6                mos::hardware::InterruptManager::handelInterrupt(unsigned char, unsigned int)
+                0x00000000001015e8                mos::hardware::InterruptManager::handel(unsigned char, unsigned int)
+ .text          0x00000000001016e6        0x0 obj/hardware/BAR.o
+ .text          0x00000000001016e6      0x77c obj/drivers/Keyboard.o
+                0x00000000001016e6                mos::drivers::Keyboard::Keyboard(mos::hardware::InterruptManager*, mos::drivers::KeyboardEventHandler*)
+                0x00000000001016e6                mos::drivers::Keyboard::Keyboard(mos::hardware::InterruptManager*, mos::drivers::KeyboardEventHandler*)
+                0x000000000010176c                mos::drivers::Keyboard::~Keyboard()
+                0x000000000010176c                mos::drivers::Keyboard::~Keyboard()
+                0x00000000001017e0                mos::drivers::Keyboard::install()
+                0x00000000001018b5                non-virtual thunk to mos::drivers::Keyboard::install()
+                0x00000000001018c0                mos::drivers::Keyboard::handel(unsigned int)
+ .text          0x0000000000101e62       0x4f obj/drivers/keyboardEventHandler.o
+                0x0000000000101e62                mos::drivers::KeyboardEventHandler::KeyboardEventHandler()
+                0x0000000000101e62                mos::drivers::KeyboardEventHandler::KeyboardEventHandler()
+                0x0000000000101e7e                mos::drivers::KeyboardEventHandler::onKeyDown(char)
+                0x0000000000101e98                mos::drivers::KeyboardEventHandler::onKeyUp(char)
+ *fill*         0x0000000000101eb1        0x1 
+ .text          0x0000000000101eb2      0x5e2 obj/drivers/Mouse.o
+                0x0000000000101eb2                mos::drivers::Mouse::Mouse(mos::hardware::InterruptManager*, mos::drivers::MouseEventHandler*)
+                0x0000000000101eb2                mos::drivers::Mouse::Mouse(mos::hardware::InterruptManager*, mos::drivers::MouseEventHandler*)
+                0x0000000000101f38                mos::drivers::Mouse::~Mouse()
+                0x0000000000101f38                mos::drivers::Mouse::~Mouse()
+                0x0000000000101fac                mos::drivers::Mouse::install()
+                0x00000000001020a3                non-virtual thunk to mos::drivers::Mouse::install()
+                0x00000000001020ae                mos::drivers::Mouse::handel(unsigned int)
+ .text          0x0000000000102494       0x70 obj/drivers/mouseEventHandler.o
+                0x0000000000102494                mos::drivers::MouseEventHandler::MouseEventHandler()
+                0x0000000000102494                mos::drivers::MouseEventHandler::MouseEventHandler()
+                0x00000000001024b0                mos::drivers::MouseEventHandler::onMouseDown(unsigned char)
+                0x00000000001024ca                mos::drivers::MouseEventHandler::onMouseMove(int, int)
+                0x00000000001024da                mos::drivers::MouseEventHandler::onMouseUp(unsigned char)
+                0x00000000001024f4                mos::drivers::MouseEventHandler::onActivate()
+ .text          0x0000000000102504      0x7cb obj/drivers/vga.o
+                0x0000000000102504                mos::drivers::VGA::VGA()
+                0x0000000000102504                mos::drivers::VGA::VGA()
+                0x0000000000102624                mos::drivers::VGA::~VGA()
+                0x0000000000102624                mos::drivers::VGA::~VGA()
+                0x000000000010270e                mos::drivers::VGA::writeRegisters(unsigned char*)
+                0x0000000000102966                mos::drivers::VGA::getSegmentPosition()
+                0x00000000001029de                mos::drivers::VGA::putPixel(int, int, unsigned char)
+                0x0000000000102a2a                mos::drivers::VGA::getColorIndex(unsigned char, unsigned char, unsigned char)
+                0x0000000000102ad0                mos::drivers::VGA::isModeSupported(unsigned int, unsigned int, unsigned int)
+                0x0000000000102b04                mos::drivers::VGA::setMode(unsigned int, unsigned int, unsigned int)
+                0x0000000000102bc6                mos::drivers::VGA::putPixel(int, int, unsigned char, unsigned char, unsigned char)
+                0x0000000000102c2c                mos::drivers::VGA::fillRectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, unsigned char, unsigned char)
+ *fill*         0x0000000000102ccf        0x1 
+ .text          0x0000000000102cd0      0xd34 obj/drivers/AMDNetCard.o
+                0x0000000000102cd0                mos::drivers::AMDNetCard::AMDNetCard(mos::hardware::PCIDeviceDescriptor*, mos::hardware::InterruptManager*)
+                0x0000000000102cd0                mos::drivers::AMDNetCard::AMDNetCard(mos::hardware::PCIDeviceDescriptor*, mos::hardware::InterruptManager*)
+                0x0000000000103296                mos::drivers::AMDNetCard::~AMDNetCard()
+                0x0000000000103296                mos::drivers::AMDNetCard::~AMDNetCard()
+                0x0000000000103364                mos::drivers::AMDNetCard::install()
+                0x0000000000103428                mos::drivers::AMDNetCard::reset()
+                0x000000000010346a                mos::drivers::AMDNetCard::handel(unsigned int)
+                0x000000000010356f                non-virtual thunk to mos::drivers::AMDNetCard::handel(unsigned int)
+                0x000000000010357a                mos::drivers::AMDNetCard::send(unsigned char*, int)
+                0x0000000000103700                mos::drivers::AMDNetCard::receive()
+                0x00000000001038f0                mos::drivers::AMDNetCard::setHandler(mos::drivers::RawDataHandler*)
+                0x000000000010390c                mos::drivers::AMDNetCard::getMACAddress()
+                0x0000000000103928                mos::drivers::AMDNetCard::getMyIp()
+                0x0000000000103940                mos::drivers::AMDNetCard::setMyIp(unsigned int)
+                0x0000000000103962                mos::drivers::RawDataHandler::RawDataHandler(mos::drivers::AMDNetCard*)
+                0x0000000000103962                mos::drivers::RawDataHandler::RawDataHandler(mos::drivers::AMDNetCard*)
+                0x0000000000103998                mos::drivers::RawDataHandler::~RawDataHandler()
+                0x0000000000103998                mos::drivers::RawDataHandler::~RawDataHandler()
+                0x00000000001039c4                mos::drivers::RawDataHandler::onRawDataReceived(unsigned char*, unsigned int)
+                0x00000000001039d8                mos::drivers::RawDataHandler::send(unsigned char*, unsigned int)
+ .text          0x0000000000103a04      0x781 obj/drivers/ATA.o
+                0x0000000000103a04                mos::drivers::ATA::ATA(unsigned short, bool)
+                0x0000000000103a04                mos::drivers::ATA::ATA(unsigned short, bool)
+                0x0000000000103b3c                mos::drivers::ATA::~ATA()
+                0x0000000000103b3c                mos::drivers::ATA::~ATA()
+                0x0000000000103bf4                mos::drivers::ATA::identify()
+                0x0000000000103cc6                mos::drivers::ATA::read28(unsigned int, unsigned char*, int)
+                0x0000000000103ee4                mos::drivers::ATA::write28(unsigned int, unsigned char*, int)
+                0x00000000001040d0                mos::drivers::ATA::flush()
+ *fill*         0x0000000000104185        0x1 
+ .text          0x0000000000104186      0x2d5 obj/gui/widget.o
+                0x0000000000104186                mos::gui::Widget::Widget(mos::gui::Widget*, int, int, int, int, unsigned char, unsigned char, unsigned char)
+                0x0000000000104186                mos::gui::Widget::Widget(mos::gui::Widget*, int, int, int, int, unsigned char, unsigned char, unsigned char)
+                0x000000000010421c                mos::gui::Widget::~Widget()
+                0x000000000010421c                mos::gui::Widget::~Widget()
+                0x0000000000104238                mos::gui::Widget::getFocus(mos::gui::Widget*)
+                0x0000000000104274                mos::gui::Widget::modelToScreen(int&, int&)
+                0x00000000001042d8                mos::gui::Widget::draw(mos::drivers::VGA*)
+                0x0000000000104374                mos::gui::Widget::containsCoordinate(int, int)
+                0x00000000001043cc                mos::gui::Widget::onMouseDown(int, int, unsigned char)
+                0x00000000001043fe                mos::gui::Widget::onMouseUp(int, int, unsigned char)
+                0x0000000000104418                mos::gui::Widget::onMouseMove(int, int, int, int)
+                0x0000000000104428                mos::gui::Widget::onKeyDown(char)
+                0x0000000000104442                mos::gui::Widget::onKeyUp(char)
+ *fill*         0x000000000010445b        0x1 
+ .text          0x000000000010445c      0x5fc obj/gui/CompositeWidget.o
+                0x000000000010445c                mos::gui::CompositeWidget::CompositeWidget(mos::gui::Widget*, int, int, int, int, unsigned char, unsigned char, unsigned char)
+                0x000000000010445c                mos::gui::CompositeWidget::CompositeWidget(mos::gui::Widget*, int, int, int, int, unsigned char, unsigned char, unsigned char)
+                0x00000000001044da                mos::gui::CompositeWidget::~CompositeWidget()
+                0x00000000001044da                mos::gui::CompositeWidget::~CompositeWidget()
+                0x000000000010450e                mos::gui::CompositeWidget::getFocus(mos::gui::Widget*)
+                0x0000000000104558                mos::gui::CompositeWidget::onKeyDown(char)
+                0x00000000001045a2                mos::gui::CompositeWidget::onKeyUp(char)
+                0x00000000001045f0                mos::gui::CompositeWidget::draw(mos::drivers::VGA*)
+                0x0000000000104670                mos::gui::CompositeWidget::onMouseDown(int, int, unsigned char)
+                0x000000000010474a                mos::gui::CompositeWidget::onMouseUp(int, int, unsigned char)
+                0x0000000000104824                mos::gui::CompositeWidget::onMouseMove(int, int, int, int)
+                0x0000000000104a02                mos::gui::CompositeWidget::addChild(mos::gui::Widget*)
+ .text          0x0000000000104a58      0x194 obj/gui/window.o
+                0x0000000000104a58                mos::gui::Window::Window(mos::gui::Widget*, int, int, int, int, unsigned char, unsigned char, unsigned char)
+                0x0000000000104a58                mos::gui::Window::Window(mos::gui::Widget*, int, int, int, int, unsigned char, unsigned char, unsigned char)
+                0x0000000000104ac8                mos::gui::Window::~Window()
+                0x0000000000104ac8                mos::gui::Window::~Window()
+                0x0000000000104afc                mos::gui::Window::onMouseDown(int, int, unsigned char)
+                0x0000000000104b42                mos::gui::Window::onMouseUp(int, int, unsigned char)
+                0x0000000000104b82                mos::gui::Window::onMouseMove(int, int, int, int)
+ .text          0x0000000000104bec      0x3ca obj/gui/desktop.o
+                0x0000000000104bec                mos::gui::Desktop::Desktop(int, int, unsigned char, unsigned char, unsigned char)
+                0x0000000000104bec                mos::gui::Desktop::Desktop(int, int, unsigned char, unsigned char, unsigned char)
+                0x0000000000104c9a                mos::gui::Desktop::~Desktop()
+                0x0000000000104c9a                mos::gui::Desktop::~Desktop()
+                0x0000000000104cdc                mos::gui::Desktop::draw(mos::drivers::VGA*)
+                0x0000000000104e28                non-virtual thunk to mos::gui::Desktop::draw(mos::drivers::VGA*)
+                0x0000000000104e32                mos::gui::Desktop::onMouseDown(unsigned char)
+                0x0000000000104e7e                mos::gui::Desktop::onMouseUp(unsigned char)
+                0x0000000000104eca                mos::gui::Desktop::onMouseMove(int, int)
+ .text          0x0000000000104fb6      0x21c obj/multitasking.o
+                0x0000000000104fb6                mos::Task::Task(mos::GlobalDescriptorTable*, unsigned int)
+                0x0000000000104fb6                mos::Task::Task(mos::GlobalDescriptorTable*, unsigned int)
+                0x000000000010508e                mos::Task::~Task()
+                0x000000000010508e                mos::Task::~Task()
+                0x000000000010509e                mos::TaskManager::TaskManager()
+                0x000000000010509e                mos::TaskManager::TaskManager()
+                0x00000000001050c8                mos::TaskManager::~TaskManager()
+                0x00000000001050c8                mos::TaskManager::~TaskManager()
+                0x00000000001050d8                mos::TaskManager::addTask(mos::Task*)
+                0x0000000000105126                mos::TaskManager::schedule(mos::GlobalDescriptorTable*, mos::CPUState*)
+ .text          0x00000000001051d2       0xb4 obj/syscall.o
+                0x00000000001051d2                mos::SysCallHandler::SysCallHandler(unsigned char, mos::hardware::InterruptManager*)
+                0x00000000001051d2                mos::SysCallHandler::SysCallHandler(unsigned char, mos::hardware::InterruptManager*)
+                0x0000000000105212                mos::SysCallHandler::~SysCallHandler()
+                0x0000000000105212                mos::SysCallHandler::~SysCallHandler()
+                0x0000000000105246                mos::SysCallHandler::handel(unsigned int)
+ .text          0x0000000000105286      0x320 obj/MemoryManager.o
+                0x0000000000105286                mos::MemoryManager::MemoryManager(unsigned int, unsigned int)
+                0x0000000000105286                mos::MemoryManager::MemoryManager(unsigned int, unsigned int)
+                0x00000000001052e6                mos::MemoryManager::~MemoryManager()
+                0x00000000001052e6                mos::MemoryManager::~MemoryManager()
+                0x000000000010530c                mos::MemoryManager::malloc(unsigned int)
+                0x00000000001053de                mos::MemoryManager::free(void*)
+                0x00000000001054c4                operator new(unsigned int)
+                0x00000000001054f7                operator new[](unsigned int)
+                0x000000000010552a                operator new(unsigned int, void*)
+                0x000000000010553c                operator new[](unsigned int, void*)
+                0x000000000010554e                operator delete(void*)
+                0x000000000010557a                operator delete[](void*)
+ .text          0x00000000001055a6        0x0 obj/MemoryChunk.o
+ .text          0x00000000001055a6      0x53b obj/net/DLLayer/etherframe.o
+                0x00000000001055a6                mos::net::DLLayer::EtherFrameHandler::EtherFrameHandler(mos::net::DLLayer::EtherFrameProvider*, unsigned short)
+                0x00000000001055a6                mos::net::DLLayer::EtherFrameHandler::EtherFrameHandler(mos::net::DLLayer::EtherFrameProvider*, unsigned short)
+                0x0000000000105610                mos::net::DLLayer::EtherFrameHandler::~EtherFrameHandler()
+                0x0000000000105610                mos::net::DLLayer::EtherFrameHandler::~EtherFrameHandler()
+                0x000000000010564e                mos::net::DLLayer::EtherFrameHandler::onFrameReceived(unsigned char*, unsigned int)
+                0x0000000000105662                mos::net::DLLayer::EtherFrameHandler::send(unsigned long long, unsigned char*, unsigned int)
+                0x00000000001056aa                mos::net::DLLayer::EtherFrameProvider::EtherFrameProvider(mos::drivers::AMDNetCard*)
+                0x00000000001056aa                mos::net::DLLayer::EtherFrameProvider::EtherFrameProvider(mos::drivers::AMDNetCard*)
+                0x0000000000105710                mos::net::DLLayer::EtherFrameProvider::~EtherFrameProvider()
+                0x0000000000105710                mos::net::DLLayer::EtherFrameProvider::~EtherFrameProvider()
+                0x0000000000105744                mos::net::DLLayer::EtherFrameProvider::onRawDataReceived(unsigned char*, unsigned int)
+                0x00000000001058ea                mos::net::DLLayer::EtherFrameProvider::send(unsigned long long, unsigned short, unsigned char*, unsigned int)
+                0x0000000000105a5e                mos::net::DLLayer::EtherFrameProvider::setHandler(mos::net::DLLayer::EtherFrameHandler*, unsigned short)
+                0x0000000000105a86                mos::net::DLLayer::EtherFrameProvider::getMyIp()
+                0x0000000000105ab4                mos::net::DLLayer::EtherFrameProvider::getMac()
+ *fill*         0x0000000000105ae1        0x1 
+ .text          0x0000000000105ae2      0x594 obj/net/NetLayer/arp.o
+                0x0000000000105ae2                mos::net::NetLayer::ARP::ARP(mos::net::DLLayer::EtherFrameProvider*)
+                0x0000000000105ae2                mos::net::NetLayer::ARP::ARP(mos::net::DLLayer::EtherFrameProvider*)
+                0x0000000000105b52                mos::net::NetLayer::ARP::~ARP()
+                0x0000000000105b52                mos::net::NetLayer::ARP::~ARP()
+                0x0000000000105b86                mos::net::NetLayer::ARP::onFrameReceived(unsigned char*, unsigned int)
+                0x0000000000105da8                mos::net::NetLayer::ARP::requestMacAddr(unsigned int)
+                0x0000000000105e78                mos::net::NetLayer::ARP::getMacFromCache(unsigned int)
+                0x0000000000105edc                mos::net::NetLayer::ARP::resolve(unsigned int)
+                0x0000000000105f92                mos::net::NetLayer::ARP::broadcastMyMac(unsigned int)
+ .text          0x0000000000106076      0x5a7 obj/net/NetLayer/ip4.o
+                0x0000000000106076                mos::net::NetLayer::Ip4Handler::Ip4Handler(mos::net::NetLayer::IP4Provider*, unsigned char)
+                0x0000000000106076                mos::net::NetLayer::Ip4Handler::Ip4Handler(mos::net::NetLayer::IP4Provider*, unsigned char)
+                0x00000000001060c8                mos::net::NetLayer::Ip4Handler::~Ip4Handler()
+                0x00000000001060c8                mos::net::NetLayer::Ip4Handler::~Ip4Handler()
+                0x0000000000106106                mos::net::NetLayer::Ip4Handler::onPacketReceived(unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x000000000010611a                mos::net::NetLayer::Ip4Handler::send(unsigned int, unsigned char*, unsigned int)
+                0x0000000000106154                mos::net::NetLayer::IP4Provider::IP4Provider(mos::net::DLLayer::EtherFrameProvider*, mos::net::NetLayer::ARP*, unsigned int, unsigned int)
+                0x0000000000106154                mos::net::NetLayer::IP4Provider::IP4Provider(mos::net::DLLayer::EtherFrameProvider*, mos::net::NetLayer::ARP*, unsigned int, unsigned int)
+                0x00000000001061e4                mos::net::NetLayer::IP4Provider::~IP4Provider()
+                0x00000000001061e4                mos::net::NetLayer::IP4Provider::~IP4Provider()
+                0x0000000000106218                mos::net::NetLayer::IP4Provider::onFrameReceived(unsigned char*, unsigned int)
+                0x0000000000106384                mos::net::NetLayer::IP4Provider::send(unsigned int, unsigned char, unsigned char*, unsigned int)
+                0x0000000000106530                mos::net::NetLayer::IP4Provider::addHandler(mos::net::NetLayer::Ip4Handler*, unsigned char)
+                0x0000000000106558                mos::net::NetLayer::IP4Provider::checksum(unsigned short*, unsigned int)
+                0x00000000001065f0                mos::net::NetLayer::IP4Provider::getMyIp()
+ *fill*         0x000000000010661d        0x1 
+ .text          0x000000000010661e      0x1f3 obj/net/NetLayer/icmp.o
+                0x000000000010661e                mos::net::NetLayer::ICMP::ICMP(mos::net::NetLayer::IP4Provider*)
+                0x000000000010661e                mos::net::NetLayer::ICMP::ICMP(mos::net::NetLayer::IP4Provider*)
+                0x000000000010665e                mos::net::NetLayer::ICMP::~ICMP()
+                0x000000000010665e                mos::net::NetLayer::ICMP::~ICMP()
+                0x0000000000106692                mos::net::NetLayer::ICMP::onPacketReceived(unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x00000000001067b2                mos::net::NetLayer::ICMP::ping(unsigned int)
+ *fill*         0x0000000000106811        0x1 
+ .text          0x0000000000106812      0x73b obj/net/TPLayer/udp.o
+                0x0000000000106812                mos::net::TPLayer::UDPHandler::UDPHandler()
+                0x0000000000106812                mos::net::TPLayer::UDPHandler::UDPHandler()
+                0x000000000010682e                mos::net::TPLayer::UDPHandler::~UDPHandler()
+                0x000000000010682e                mos::net::TPLayer::UDPHandler::~UDPHandler()
+                0x000000000010684a                mos::net::TPLayer::UDPHandler::handleDatagram(mos::net::TPLayer::UDPSocket*, unsigned char*, unsigned short)
+                0x0000000000106864                mos::net::TPLayer::UDPSocket::UDPSocket(mos::net::TPLayer::UDPProvider*)
+                0x0000000000106864                mos::net::TPLayer::UDPSocket::UDPSocket(mos::net::TPLayer::UDPProvider*)
+                0x000000000010689a                mos::net::TPLayer::UDPSocket::~UDPSocket()
+                0x000000000010689a                mos::net::TPLayer::UDPSocket::~UDPSocket()
+                0x00000000001068b6                mos::net::TPLayer::UDPSocket::handleDatagram(unsigned char*, unsigned short)
+                0x00000000001068fc                mos::net::TPLayer::UDPSocket::send(unsigned char*, unsigned short)
+                0x000000000010693a                mos::net::TPLayer::UDPSocket::disconnect()
+                0x000000000010696c                mos::net::TPLayer::UDPProvider::UDPProvider(mos::net::NetLayer::IP4Provider*)
+                0x000000000010696c                mos::net::TPLayer::UDPProvider::UDPProvider(mos::net::NetLayer::IP4Provider*)
+                0x00000000001069ec                mos::net::TPLayer::UDPProvider::~UDPProvider()
+                0x00000000001069ec                mos::net::TPLayer::UDPProvider::~UDPProvider()
+                0x0000000000106a20                mos::net::TPLayer::UDPProvider::onPacketReceived(unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x0000000000106b7c                mos::net::TPLayer::UDPProvider::disconnect(mos::net::TPLayer::UDPSocket*)
+                0x0000000000106c22                mos::net::TPLayer::UDPProvider::connect(unsigned int, unsigned short)
+                0x0000000000106d42                mos::net::TPLayer::UDPProvider::listen(unsigned short)
+                0x0000000000106e42                mos::net::TPLayer::UDPProvider::send(mos::net::TPLayer::UDPSocket*, unsigned char*, unsigned short)
+                0x0000000000106f34                mos::net::TPLayer::UDPProvider::bind(mos::net::TPLayer::UDPSocket*, mos::net::TPLayer::UDPHandler*)
+ *fill*         0x0000000000106f4d        0x1 
+ .text          0x0000000000106f4e      0xccd obj/net/TPLayer/tcp.o
+                0x0000000000106f4e                bigEndian32(unsigned int)
+                0x0000000000106f88                mos::net::TPLayer::TCPHandler::TCPHandler()
+                0x0000000000106f88                mos::net::TPLayer::TCPHandler::TCPHandler()
+                0x0000000000106fa4                mos::net::TPLayer::TCPHandler::~TCPHandler()
+                0x0000000000106fa4                mos::net::TPLayer::TCPHandler::~TCPHandler()
+                0x0000000000106fc0                mos::net::TPLayer::TCPHandler::handleSegment(mos::net::TPLayer::TCPSocket*, unsigned char*, unsigned short)
+                0x0000000000106fde                mos::net::TPLayer::TCPSocket::TCPSocket(mos::net::TPLayer::TCPProvider*)
+                0x0000000000106fde                mos::net::TPLayer::TCPSocket::TCPSocket(mos::net::TPLayer::TCPProvider*)
+                0x0000000000107016                mos::net::TPLayer::TCPSocket::~TCPSocket()
+                0x0000000000107016                mos::net::TPLayer::TCPSocket::~TCPSocket()
+                0x0000000000107032                mos::net::TPLayer::TCPSocket::handleSegment(unsigned char*, unsigned short)
+                0x000000000010707e                mos::net::TPLayer::TCPSocket::send(unsigned char*, unsigned short)
+                0x00000000001070c2                mos::net::TPLayer::TCPSocket::disconnect()
+                0x00000000001070f4                mos::net::TPLayer::TCPProvider::TCPProvider(mos::net::NetLayer::IP4Provider*)
+                0x00000000001070f4                mos::net::TPLayer::TCPProvider::TCPProvider(mos::net::NetLayer::IP4Provider*)
+                0x0000000000107174                mos::net::TPLayer::TCPProvider::~TCPProvider()
+                0x0000000000107174                mos::net::TPLayer::TCPProvider::~TCPProvider()
+                0x00000000001071a8                mos::net::TPLayer::TCPProvider::onPacketReceived(unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x00000000001077a6                mos::net::TPLayer::TCPProvider::disconnect(mos::net::TPLayer::TCPSocket*)
+                0x00000000001077f0                mos::net::TPLayer::TCPProvider::connect(unsigned int, unsigned short)
+                0x0000000000107942                mos::net::TPLayer::TCPProvider::listen(unsigned short)
+                0x0000000000107a20                mos::net::TPLayer::TCPProvider::send(mos::net::TPLayer::TCPSocket*, unsigned char*, unsigned short, unsigned short)
+                0x0000000000107c02                mos::net::TPLayer::TCPProvider::bind(mos::net::TPLayer::TCPSocket*, mos::net::TPLayer::TCPHandler*)
+ .text          0x0000000000107c1b      0x5d0 obj/kernel.o
+                0x0000000000107c1b                printf(char*)
+                0x0000000000107d4d                printfHex(char)
+                0x0000000000107dbb                printfHex(short)
+                0x0000000000107e65                sysprintf(char*)
+                0x0000000000107e85                taskA()
+                0x0000000000107ea5                taskB()
+                0x0000000000107ec5                Main
+ *(.rodata)
+ .rodata        0x00000000001081eb       0x15 obj/hardware/pci.o
+ .rodata        0x0000000000108200       0x19 obj/hardware/interrupts.o
+ *fill*         0x0000000000108219        0x3 
+ .rodata        0x000000000010821c       0xf4 obj/drivers/Keyboard.o
+ .rodata        0x0000000000108310       0x8d obj/drivers/AMDNetCard.o
+ .rodata        0x000000000010839d       0x6e obj/drivers/ATA.o
+ .rodata        0x000000000010840b       0x1b obj/net/NetLayer/arp.o
+ .rodata        0x0000000000108426       0x16 obj/net/NetLayer/icmp.o
+ .rodata        0x000000000010843c       0x50 obj/net/TPLayer/tcp.o
+ .rodata        0x000000000010848c       0x38 obj/kernel.o
+
+.iplt           0x00000000001084c4        0x0
+ .iplt          0x00000000001084c4        0x0 obj/loader.o
+
+.text.__x86.get_pc_thunk.ax
+                0x00000000001084c4        0x4
+ .text.__x86.get_pc_thunk.ax
+                0x00000000001084c4        0x4 obj/gdt.o
+                0x00000000001084c4                __x86.get_pc_thunk.ax
+
+.text.__x86.get_pc_thunk.bx
+                0x00000000001084c8        0x4
+ .text.__x86.get_pc_thunk.bx
+                0x00000000001084c8        0x4 obj/hardware/port.o
+                0x00000000001084c8                __x86.get_pc_thunk.bx
+
+.text.__x86.get_pc_thunk.si
+                0x00000000001084cc        0x4
+ .text.__x86.get_pc_thunk.si
+                0x00000000001084cc        0x4 obj/drivers/AMDNetCard.o
+                0x00000000001084cc                __x86.get_pc_thunk.si
+
+.text.__x86.get_pc_thunk.dx
+                0x00000000001084d0        0x4
+ .text.__x86.get_pc_thunk.dx
+                0x00000000001084d0        0x4 obj/gui/desktop.o
+                0x00000000001084d0                __x86.get_pc_thunk.dx
+
+.text._ZN26PrintfKeyboardEventHandler9onKeyDownEc
+                0x00000000001084d4       0x39
+ .text._ZN26PrintfKeyboardEventHandler9onKeyDownEc
+                0x00000000001084d4       0x39 obj/kernel.o
+                0x00000000001084d4                PrintfKeyboardEventHandler::onKeyDown(char)
+
+.text._ZN26PrintfKeyboardEventHandlerC2Ev
+                0x000000000010850e       0x32
+ .text._ZN26PrintfKeyboardEventHandlerC2Ev
+                0x000000000010850e       0x32 obj/kernel.o
+                0x000000000010850e                PrintfKeyboardEventHandler::PrintfKeyboardEventHandler()
+                0x000000000010850e                PrintfKeyboardEventHandler::PrintfKeyboardEventHandler()
+
+.eh_frame       0x0000000000108540     0x1f98
+ .eh_frame      0x0000000000108540      0x10c obj/gdt.o
+ .eh_frame      0x000000000010864c       0xa0 obj/drivers/driver.o
+                                         0xcc (size before relaxing)
+ .eh_frame      0x00000000001086ec       0x60 obj/drivers/driverManager.o
+                                         0x8c (size before relaxing)
+ .eh_frame      0x000000000010874c       0x20 obj/common/helper.o
+                                         0x4c (size before relaxing)
+ .eh_frame      0x000000000010876c      0x244 obj/hardware/port.o
+                                        0x270 (size before relaxing)
+ .eh_frame      0x00000000001089b0      0x15c obj/hardware/pci.o
+                                        0x19c (size before relaxing)
+ .eh_frame      0x0000000000108b0c       0x40 obj/hardware/PCIDeviceDescriptor.o
+                                         0x6c (size before relaxing)
+ .eh_frame      0x0000000000108b4c      0x15c obj/hardware/interrupts.o
+                                        0x19c (size before relaxing)
+ .eh_frame      0x0000000000108ca8       0xa4 obj/drivers/Keyboard.o
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000108d4c       0x60 obj/drivers/keyboardEventHandler.o
+                                         0x8c (size before relaxing)
+ .eh_frame      0x0000000000108dac       0xac obj/drivers/Mouse.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000108e58       0xa0 obj/drivers/mouseEventHandler.o
+                                         0xcc (size before relaxing)
+ .eh_frame      0x0000000000108ef8      0x16c obj/drivers/vga.o
+                                        0x1ac (size before relaxing)
+ .eh_frame      0x0000000000109064      0x230 obj/drivers/AMDNetCard.o
+                                        0x270 (size before relaxing)
+ .eh_frame      0x0000000000109294       0xd8 obj/drivers/ATA.o
+                                        0x104 (size before relaxing)
+ .eh_frame      0x000000000010936c      0x170 obj/gui/widget.o
+                                        0x1b0 (size before relaxing)
+ .eh_frame      0x00000000001094dc      0x17c obj/gui/CompositeWidget.o
+                                        0x1bc (size before relaxing)
+ .eh_frame      0x0000000000109658       0xb8 obj/gui/window.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x0000000000109710      0x10c obj/gui/desktop.o
+                                        0x14c (size before relaxing)
+ .eh_frame      0x000000000010981c       0xc8 obj/multitasking.o
+                                         0xf4 (size before relaxing)
+ .eh_frame      0x00000000001098e4       0x6c obj/syscall.o
+                                         0xac (size before relaxing)
+ .eh_frame      0x0000000000109950      0x140 obj/MemoryManager.o
+                                        0x16c (size before relaxing)
+ .eh_frame      0x0000000000109a90      0x18c obj/net/DLLayer/etherframe.o
+                                        0x1cc (size before relaxing)
+ .eh_frame      0x0000000000109c1c      0x118 obj/net/NetLayer/arp.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x0000000000109d34      0x18c obj/net/NetLayer/ip4.o
+                                        0x1cc (size before relaxing)
+ .eh_frame      0x0000000000109ec0       0x98 obj/net/NetLayer/icmp.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000109f58      0x218 obj/net/TPLayer/udp.o
+                                        0x258 (size before relaxing)
+ .eh_frame      0x000000000010a170      0x240 obj/net/TPLayer/tcp.o
+                                        0x280 (size before relaxing)
+ .eh_frame      0x000000000010a3b0      0x128 obj/kernel.o
+                                        0x168 (size before relaxing)
+
+.rel.dyn        0x000000000010a4d8        0x0
+ .rel.got       0x000000000010a4d8        0x0 obj/loader.o
+ .rel.iplt      0x000000000010a4d8        0x0 obj/loader.o
+ .rel.text      0x000000000010a4d8        0x0 obj/loader.o
+ .rel.data.rel.ro._ZTV26PrintfKeyboardEventHandler
+                0x000000000010a4d8        0x0 obj/loader.o
+
+.data           0x000000000010a4d8       0x10
+                0x000000000010a4d8                start_ctors = .
+ *(.init_array)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*))
+                0x000000000010a4d8                end_ctors = .
+ *(.data)
+ .data          0x000000000010a4d8        0x0 obj/loader.o
+ .data          0x000000000010a4d8        0x0 obj/gdt.o
+ .data          0x000000000010a4d8        0x0 obj/drivers/driver.o
+ .data          0x000000000010a4d8        0x0 obj/drivers/driverManager.o
+ .data          0x000000000010a4d8        0x0 obj/common/helper.o
+ .data          0x000000000010a4d8        0x0 obj/hardware/port.o
+ .data          0x000000000010a4d8        0x1 obj/hardware/interruptstubs.o
+ .data          0x000000000010a4d9        0x0 obj/hardware/pci.o
+ .data          0x000000000010a4d9        0x0 obj/hardware/PCIDeviceDescriptor.o
+ .data          0x000000000010a4d9        0x0 obj/hardware/interrupts.o
+ .data          0x000000000010a4d9        0x0 obj/hardware/BAR.o
+ .data          0x000000000010a4d9        0x0 obj/drivers/Keyboard.o
+ .data          0x000000000010a4d9        0x0 obj/drivers/keyboardEventHandler.o
+ *fill*         0x000000000010a4d9        0x3 
+ .data          0x000000000010a4dc        0x8 obj/drivers/Mouse.o
+ .data          0x000000000010a4e4        0x0 obj/drivers/mouseEventHandler.o
+ .data          0x000000000010a4e4        0x0 obj/drivers/vga.o
+ .data          0x000000000010a4e4        0x0 obj/drivers/AMDNetCard.o
+ .data          0x000000000010a4e4        0x0 obj/drivers/ATA.o
+ .data          0x000000000010a4e4        0x0 obj/gui/widget.o
+ .data          0x000000000010a4e4        0x0 obj/gui/CompositeWidget.o
+ .data          0x000000000010a4e4        0x0 obj/gui/window.o
+ .data          0x000000000010a4e4        0x0 obj/gui/desktop.o
+ .data          0x000000000010a4e4        0x0 obj/multitasking.o
+ .data          0x000000000010a4e4        0x0 obj/syscall.o
+ .data          0x000000000010a4e4        0x0 obj/MemoryManager.o
+ .data          0x000000000010a4e4        0x0 obj/MemoryChunk.o
+ .data          0x000000000010a4e4        0x0 obj/net/DLLayer/etherframe.o
+ .data          0x000000000010a4e4        0x0 obj/net/NetLayer/arp.o
+ .data          0x000000000010a4e4        0x0 obj/net/NetLayer/ip4.o
+ .data          0x000000000010a4e4        0x0 obj/net/NetLayer/icmp.o
+ .data          0x000000000010a4e4        0x0 obj/net/TPLayer/udp.o
+ .data          0x000000000010a4e4        0x0 obj/net/TPLayer/tcp.o
+ .data          0x000000000010a4e4        0x4 obj/kernel.o
+
+.got            0x000000000010a4e8        0x0
+ .got           0x000000000010a4e8        0x0 obj/loader.o
+
+.got.plt        0x000000000010a4e8        0xc
+ .got.plt       0x000000000010a4e8        0xc obj/loader.o
+                0x000000000010a4e8                _GLOBAL_OFFSET_TABLE_
+
+.igot.plt       0x000000000010a4f4        0x0
+ .igot.plt      0x000000000010a4f4        0x0 obj/loader.o
+
+.data.rel.ro.local._ZTVN3mos7drivers6DriverE
+                0x000000000010a4f4       0x14
+ .data.rel.ro.local._ZTVN3mos7drivers6DriverE
+                0x000000000010a4f4       0x14 obj/drivers/driver.o
+                0x000000000010a4f4                vtable for mos::drivers::Driver
+
+.data.rel.ro.local._ZTVN3mos8hardware9port32BitE
+                0x000000000010a508       0x10
+ .data.rel.ro.local._ZTVN3mos8hardware9port32BitE
+                0x000000000010a508       0x10 obj/hardware/port.o
+                0x000000000010a508                vtable for mos::hardware::port32Bit
+
+.data.rel.ro.local._ZTVN3mos8hardware9port16BitE
+                0x000000000010a518       0x10
+ .data.rel.ro.local._ZTVN3mos8hardware9port16BitE
+                0x000000000010a518       0x10 obj/hardware/port.o
+                0x000000000010a518                vtable for mos::hardware::port16Bit
+
+.data.rel.ro.local._ZTVN3mos8hardware12port8BitSlowE
+                0x000000000010a528       0x10
+ .data.rel.ro.local._ZTVN3mos8hardware12port8BitSlowE
+                0x000000000010a528       0x10 obj/hardware/port.o
+                0x000000000010a528                vtable for mos::hardware::port8BitSlow
+
+.data.rel.ro.local._ZTVN3mos8hardware8port8BitE
+                0x000000000010a538       0x10
+ .data.rel.ro.local._ZTVN3mos8hardware8port8BitE
+                0x000000000010a538       0x10 obj/hardware/port.o
+                0x000000000010a538                vtable for mos::hardware::port8Bit
+
+.data.rel.ro.local._ZTVN3mos8hardware16InterruptHandlerE
+                0x000000000010a548        0xc
+ .data.rel.ro.local._ZTVN3mos8hardware16InterruptHandlerE
+                0x000000000010a548        0xc obj/hardware/interrupts.o
+                0x000000000010a548                vtable for mos::hardware::InterruptHandler
+
+.data.rel.ro._ZTVN3mos7drivers8KeyboardE
+                0x000000000010a554       0x24
+ .data.rel.ro._ZTVN3mos7drivers8KeyboardE
+                0x000000000010a554       0x24 obj/drivers/Keyboard.o
+                0x000000000010a554                vtable for mos::drivers::Keyboard
+
+.data.rel.ro.local._ZTVN3mos7drivers20KeyboardEventHandlerE
+                0x000000000010a578       0x10
+ .data.rel.ro.local._ZTVN3mos7drivers20KeyboardEventHandlerE
+                0x000000000010a578       0x10 obj/drivers/keyboardEventHandler.o
+                0x000000000010a578                vtable for mos::drivers::KeyboardEventHandler
+
+.data.rel.ro._ZTVN3mos7drivers5MouseE
+                0x000000000010a588       0x24
+ .data.rel.ro._ZTVN3mos7drivers5MouseE
+                0x000000000010a588       0x24 obj/drivers/Mouse.o
+                0x000000000010a588                vtable for mos::drivers::Mouse
+
+.data.rel.ro.local._ZTVN3mos7drivers17MouseEventHandlerE
+                0x000000000010a5ac       0x18
+ .data.rel.ro.local._ZTVN3mos7drivers17MouseEventHandlerE
+                0x000000000010a5ac       0x18 obj/drivers/mouseEventHandler.o
+                0x000000000010a5ac                vtable for mos::drivers::MouseEventHandler
+
+.data.rel.ro.local._ZTVN3mos7drivers3VGAE
+                0x000000000010a5c4       0x20
+ .data.rel.ro.local._ZTVN3mos7drivers3VGAE
+                0x000000000010a5c4       0x20 obj/drivers/vga.o
+                0x000000000010a5c4                vtable for mos::drivers::VGA
+
+.data.rel.ro.local._ZTVN3mos7drivers14RawDataHandlerE
+                0x000000000010a5e4       0x10
+ .data.rel.ro.local._ZTVN3mos7drivers14RawDataHandlerE
+                0x000000000010a5e4       0x10 obj/drivers/AMDNetCard.o
+                0x000000000010a5e4                vtable for mos::drivers::RawDataHandler
+
+.data.rel.ro._ZTVN3mos7drivers10AMDNetCardE
+                0x000000000010a5f4       0x24
+ .data.rel.ro._ZTVN3mos7drivers10AMDNetCardE
+                0x000000000010a5f4       0x24 obj/drivers/AMDNetCard.o
+                0x000000000010a5f4                vtable for mos::drivers::AMDNetCard
+
+.data.rel.ro.local._ZTVN3mos3gui6WidgetE
+                0x000000000010a618       0x2c
+ .data.rel.ro.local._ZTVN3mos3gui6WidgetE
+                0x000000000010a618       0x2c obj/gui/widget.o
+                0x000000000010a618                vtable for mos::gui::Widget
+
+.data.rel.ro._ZTVN3mos3gui15CompositeWidgetE
+                0x000000000010a644       0x30
+ .data.rel.ro._ZTVN3mos3gui15CompositeWidgetE
+                0x000000000010a644       0x30 obj/gui/CompositeWidget.o
+                0x000000000010a644                vtable for mos::gui::CompositeWidget
+
+.data.rel.ro._ZTVN3mos3gui6WindowE
+                0x000000000010a674       0x30
+ .data.rel.ro._ZTVN3mos3gui6WindowE
+                0x000000000010a674       0x30 obj/gui/window.o
+                0x000000000010a674                vtable for mos::gui::Window
+
+.data.rel.ro._ZTVN3mos3gui7DesktopE
+                0x000000000010a6a4       0x4c
+ .data.rel.ro._ZTVN3mos3gui7DesktopE
+                0x000000000010a6a4       0x4c obj/gui/desktop.o
+                0x000000000010a6a4                vtable for mos::gui::Desktop
+
+.data.rel.ro.local._ZTVN3mos14SysCallHandlerE
+                0x000000000010a6f0        0xc
+ .data.rel.ro.local._ZTVN3mos14SysCallHandlerE
+                0x000000000010a6f0        0xc obj/syscall.o
+                0x000000000010a6f0                vtable for mos::SysCallHandler
+
+.data.rel.ro._ZTVN3mos3net7DLLayer18EtherFrameProviderE
+                0x000000000010a6fc       0x10
+ .data.rel.ro._ZTVN3mos3net7DLLayer18EtherFrameProviderE
+                0x000000000010a6fc       0x10 obj/net/DLLayer/etherframe.o
+                0x000000000010a6fc                vtable for mos::net::DLLayer::EtherFrameProvider
+
+.data.rel.ro.local._ZTVN3mos3net7DLLayer17EtherFrameHandlerE
+                0x000000000010a70c       0x10
+ .data.rel.ro.local._ZTVN3mos3net7DLLayer17EtherFrameHandlerE
+                0x000000000010a70c       0x10 obj/net/DLLayer/etherframe.o
+                0x000000000010a70c                vtable for mos::net::DLLayer::EtherFrameHandler
+
+.data.rel.ro._ZTVN3mos3net8NetLayer3ARPE
+                0x000000000010a71c       0x10
+ .data.rel.ro._ZTVN3mos3net8NetLayer3ARPE
+                0x000000000010a71c       0x10 obj/net/NetLayer/arp.o
+                0x000000000010a71c                vtable for mos::net::NetLayer::ARP
+
+.data.rel.ro._ZTVN3mos3net8NetLayer11IP4ProviderE
+                0x000000000010a72c       0x10
+ .data.rel.ro._ZTVN3mos3net8NetLayer11IP4ProviderE
+                0x000000000010a72c       0x10 obj/net/NetLayer/ip4.o
+                0x000000000010a72c                vtable for mos::net::NetLayer::IP4Provider
+
+.data.rel.ro.local._ZTVN3mos3net8NetLayer10Ip4HandlerE
+                0x000000000010a73c       0x10
+ .data.rel.ro.local._ZTVN3mos3net8NetLayer10Ip4HandlerE
+                0x000000000010a73c       0x10 obj/net/NetLayer/ip4.o
+                0x000000000010a73c                vtable for mos::net::NetLayer::Ip4Handler
+
+.data.rel.ro._ZTVN3mos3net8NetLayer4ICMPE
+                0x000000000010a74c       0x10
+ .data.rel.ro._ZTVN3mos3net8NetLayer4ICMPE
+                0x000000000010a74c       0x10 obj/net/NetLayer/icmp.o
+                0x000000000010a74c                vtable for mos::net::NetLayer::ICMP
+
+.data.rel.ro._ZTVN3mos3net7TPLayer11UDPProviderE
+                0x000000000010a75c       0x24
+ .data.rel.ro._ZTVN3mos3net7TPLayer11UDPProviderE
+                0x000000000010a75c       0x24 obj/net/TPLayer/udp.o
+                0x000000000010a75c                vtable for mos::net::TPLayer::UDPProvider
+
+.data.rel.ro.local._ZTVN3mos3net7TPLayer9UDPSocketE
+                0x000000000010a780       0x14
+ .data.rel.ro.local._ZTVN3mos3net7TPLayer9UDPSocketE
+                0x000000000010a780       0x14 obj/net/TPLayer/udp.o
+                0x000000000010a780                vtable for mos::net::TPLayer::UDPSocket
+
+.data.rel.ro.local._ZTVN3mos3net7TPLayer10UDPHandlerE
+                0x000000000010a794        0xc
+ .data.rel.ro.local._ZTVN3mos3net7TPLayer10UDPHandlerE
+                0x000000000010a794        0xc obj/net/TPLayer/udp.o
+                0x000000000010a794                vtable for mos::net::TPLayer::UDPHandler
+
+.data.rel.ro._ZTVN3mos3net7TPLayer11TCPProviderE
+                0x000000000010a7a0       0x24
+ .data.rel.ro._ZTVN3mos3net7TPLayer11TCPProviderE
+                0x000000000010a7a0       0x24 obj/net/TPLayer/tcp.o
+                0x000000000010a7a0                vtable for mos::net::TPLayer::TCPProvider
+
+.data.rel.ro.local._ZTVN3mos3net7TPLayer9TCPSocketE
+                0x000000000010a7c4       0x14
+ .data.rel.ro.local._ZTVN3mos3net7TPLayer9TCPSocketE
+                0x000000000010a7c4       0x14 obj/net/TPLayer/tcp.o
+                0x000000000010a7c4                vtable for mos::net::TPLayer::TCPSocket
+
+.data.rel.ro.local._ZTVN3mos3net7TPLayer10TCPHandlerE
+                0x000000000010a7d8        0xc
+ .data.rel.ro.local._ZTVN3mos3net7TPLayer10TCPHandlerE
+                0x000000000010a7d8        0xc obj/net/TPLayer/tcp.o
+                0x000000000010a7d8                vtable for mos::net::TPLayer::TCPHandler
+
+.data.rel.ro._ZTV26PrintfKeyboardEventHandler
+                0x000000000010a7e4       0x10
+ .data.rel.ro._ZTV26PrintfKeyboardEventHandler
+                0x000000000010a7e4       0x10 obj/kernel.o
+                0x000000000010a7e4                vtable for PrintfKeyboardEventHandler
+
+.bss            0x000000000010a800   0x50080a
+ *(.bss)
+ .bss           0x000000000010a800   0x500000 obj/loader.o
+ .bss           0x000000000060a800        0x0 obj/gdt.o
+ .bss           0x000000000060a800        0x0 obj/drivers/driver.o
+ .bss           0x000000000060a800        0x0 obj/drivers/driverManager.o
+ .bss           0x000000000060a800        0x0 obj/common/helper.o
+ .bss           0x000000000060a800        0x0 obj/hardware/port.o
+ .bss           0x000000000060a800        0x0 obj/hardware/interruptstubs.o
+ .bss           0x000000000060a800        0x0 obj/hardware/pci.o
+ .bss           0x000000000060a800        0x0 obj/hardware/PCIDeviceDescriptor.o
+ .bss           0x000000000060a800      0x804 obj/hardware/interrupts.o
+                0x000000000060a800                mos::hardware::InterruptManager::idt
+                0x000000000060b000                mos::hardware::InterruptManager::instance
+ .bss           0x000000000060b004        0x0 obj/hardware/BAR.o
+ .bss           0x000000000060b004        0x0 obj/drivers/Keyboard.o
+ .bss           0x000000000060b004        0x0 obj/drivers/keyboardEventHandler.o
+ .bss           0x000000000060b004        0x0 obj/drivers/Mouse.o
+ .bss           0x000000000060b004        0x0 obj/drivers/mouseEventHandler.o
+ .bss           0x000000000060b004        0x0 obj/drivers/vga.o
+ .bss           0x000000000060b004        0x0 obj/drivers/AMDNetCard.o
+ .bss           0x000000000060b004        0x0 obj/drivers/ATA.o
+ .bss           0x000000000060b004        0x0 obj/gui/widget.o
+ .bss           0x000000000060b004        0x0 obj/gui/CompositeWidget.o
+ .bss           0x000000000060b004        0x0 obj/gui/window.o
+ .bss           0x000000000060b004        0x0 obj/gui/desktop.o
+ .bss           0x000000000060b004        0x0 obj/multitasking.o
+ .bss           0x000000000060b004        0x0 obj/syscall.o
+ .bss           0x000000000060b004        0x4 obj/MemoryManager.o
+                0x000000000060b004                mos::MemoryManager::activeMemMgr
+ .bss           0x000000000060b008        0x0 obj/MemoryChunk.o
+ .bss           0x000000000060b008        0x0 obj/net/DLLayer/etherframe.o
+ .bss           0x000000000060b008        0x0 obj/net/NetLayer/arp.o
+ .bss           0x000000000060b008        0x0 obj/net/NetLayer/ip4.o
+ .bss           0x000000000060b008        0x0 obj/net/NetLayer/icmp.o
+ .bss           0x000000000060b008        0x0 obj/net/TPLayer/udp.o
+ .bss           0x000000000060b008        0x0 obj/net/TPLayer/tcp.o
+ .bss           0x000000000060b008        0x2 obj/kernel.o
+
+/DISCARD/
+ *(.fini_array*)
+ *(.comment)
+LOAD obj/loader.o
+LOAD obj/gdt.o
+LOAD obj/drivers/driver.o
+LOAD obj/drivers/driverManager.o
+LOAD obj/common/helper.o
+LOAD obj/hardware/port.o
+LOAD obj/hardware/interruptstubs.o
+LOAD obj/hardware/pci.o
+LOAD obj/hardware/PCIDeviceDescriptor.o
+LOAD obj/hardware/interrupts.o
+LOAD obj/hardware/BAR.o
+LOAD obj/drivers/Keyboard.o
+LOAD obj/drivers/keyboardEventHandler.o
+LOAD obj/drivers/Mouse.o
+LOAD obj/drivers/mouseEventHandler.o
+LOAD obj/drivers/vga.o
+LOAD obj/drivers/AMDNetCard.o
+LOAD obj/drivers/ATA.o
+LOAD obj/gui/widget.o
+LOAD obj/gui/CompositeWidget.o
+LOAD obj/gui/window.o
+LOAD obj/gui/desktop.o
+LOAD obj/multitasking.o
+LOAD obj/syscall.o
+LOAD obj/MemoryManager.o
+LOAD obj/MemoryChunk.o
+LOAD obj/net/DLLayer/etherframe.o
+LOAD obj/net/NetLayer/arp.o
+LOAD obj/net/NetLayer/ip4.o
+LOAD obj/net/NetLayer/icmp.o
+LOAD obj/net/TPLayer/udp.o
+LOAD obj/net/TPLayer/tcp.o
+LOAD obj/kernel.o
+OUTPUT(kernel.bin elf32-i386)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/gdt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/driverManager.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/common/helper.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/hardware/port.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/hardware/pci.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/hardware/PCIDeviceDescriptor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/hardware/interrupts.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/hardware/BAR.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/Keyboard.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/keyboardEventHandler.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/Mouse.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/mouseEventHandler.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/vga.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/AMDNetCard.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/drivers/ATA.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/gui/widget.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/gui/CompositeWidget.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/gui/window.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/gui/desktop.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/multitasking.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/syscall.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/MemoryManager.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/MemoryChunk.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/net/DLLayer/etherframe.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/net/NetLayer/arp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/net/NetLayer/ip4.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/net/NetLayer/icmp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/net/TPLayer/udp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/net/TPLayer/tcp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/kernel.o

@@ -1,0 +1,71 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mohamed/Desktop/mos'
+mkdir -p obj
+as --32	-o obj/loader.o src/loader.s
+mkdir -p obj
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/gdt.o src/gdt.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/driver.o src/drivers/driver.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/driverManager.o src/drivers/driverManager.cpp
+mkdir -p obj/common
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/common/helper.o src/common/helper.cpp
+mkdir -p obj/hardware
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/hardware/port.o src/hardware/port.cpp
+mkdir -p obj/hardware
+as --32	-o obj/hardware/interruptstubs.o src/hardware/interruptstubs.s
+mkdir -p obj/hardware
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/hardware/pci.o src/hardware/pci.cpp
+mkdir -p obj/hardware
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/hardware/PCIDeviceDescriptor.o src/hardware/PCIDeviceDescriptor.cpp
+mkdir -p obj/hardware
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/hardware/interrupts.o src/hardware/interrupts.cpp
+mkdir -p obj/hardware
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/hardware/BAR.o src/hardware/BAR.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/Keyboard.o src/drivers/Keyboard.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/keyboardEventHandler.o src/drivers/keyboardEventHandler.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/Mouse.o src/drivers/Mouse.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/mouseEventHandler.o src/drivers/mouseEventHandler.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/vga.o src/drivers/vga.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/AMDNetCard.o src/drivers/AMDNetCard.cpp
+mkdir -p obj/drivers
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/drivers/ATA.o src/drivers/ATA.cpp
+mkdir -p obj/gui
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/gui/widget.o src/gui/widget.cpp
+mkdir -p obj/gui
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/gui/CompositeWidget.o src/gui/CompositeWidget.cpp
+mkdir -p obj/gui
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/gui/window.o src/gui/window.cpp
+mkdir -p obj/gui
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/gui/desktop.o src/gui/desktop.cpp
+mkdir -p obj
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/multitasking.o src/multitasking.cpp
+mkdir -p obj
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/syscall.o src/syscall.cpp
+mkdir -p obj
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/MemoryManager.o src/MemoryManager.cpp
+mkdir -p obj
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/MemoryChunk.o src/MemoryChunk.cpp
+mkdir -p obj/net/DLLayer
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/net/DLLayer/etherframe.o src/net/DLLayer/etherframe.cpp
+mkdir -p obj/net/NetLayer
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/net/NetLayer/arp.o src/net/NetLayer/arp.cpp
+mkdir -p obj/net/NetLayer
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/net/NetLayer/ip4.o src/net/NetLayer/ip4.cpp
+mkdir -p obj/net/NetLayer
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/net/NetLayer/icmp.o src/net/NetLayer/icmp.cpp
+mkdir -p obj/net/TPLayer
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/net/TPLayer/udp.o src/net/TPLayer/udp.cpp
+mkdir -p obj/net/TPLayer
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/net/TPLayer/tcp.o src/net/TPLayer/tcp.cpp
+mkdir -p obj
+g++ -m32 -Iinclude -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-exceptions -fno-leading-underscore  -c -o obj/kernel.o src/kernel.cpp
+ld  -Map map.map -melf_i386	-T linker.ld -o kernel.bin obj/loader.o obj/gdt.o obj/drivers/driver.o obj/drivers/driverManager.o obj/common/helper.o obj/hardware/port.o obj/hardware/interruptstubs.o obj/hardware/pci.o obj/hardware/PCIDeviceDescriptor.o obj/hardware/interrupts.o obj/hardware/BAR.o obj/drivers/Keyboard.o obj/drivers/keyboardEventHandler.o obj/drivers/Mouse.o obj/drivers/mouseEventHandler.o obj/drivers/vga.o obj/drivers/AMDNetCard.o obj/drivers/ATA.o obj/gui/widget.o obj/gui/CompositeWidget.o obj/gui/window.o obj/gui/desktop.o obj/multitasking.o obj/syscall.o obj/MemoryManager.o obj/MemoryChunk.o obj/net/DLLayer/etherframe.o obj/net/NetLayer/arp.o obj/net/NetLayer/ip4.o obj/net/NetLayer/icmp.o obj/net/TPLayer/udp.o obj/net/TPLayer/tcp.o obj/kernel.o
+make: Leaving directory '/home/mohamed/Desktop/mos'
+ 
