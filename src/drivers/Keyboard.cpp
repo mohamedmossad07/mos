@@ -20,7 +20,7 @@ CMDPort(0x64),
 dataPort(0x60)
 { 
     this->handler=handler;
-    
+    printf("Initializing Keyboard driver...\n");
 }
 Keyboard::~Keyboard(){}
 
@@ -93,7 +93,7 @@ uint32_t Keyboard::handel(uint32_t esp){
 
             default:
             {
-                printf("KEYBOARD 0x");
+                printf("\nKeyboard interrupt 0x");
                 printfHex(key);
                 break;
             }

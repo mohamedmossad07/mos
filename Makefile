@@ -34,15 +34,14 @@ OBJECTS = obj/loader.o\
 		  obj/net/TPLayer/udp.o\
 		  obj/net/TPLayer/tcp.o\
 		  obj/kernel.o
-LDFLAGS = -Map map.map -melf_i386
-
+LDFLAGS = -melf_i386
 
 obj/%.o :src/%.cpp
 	mkdir -p $(@D)
 	$(CC) $(CXXFALGS) -o $@ $^
 obj/%.o : src/%.s
 	mkdir -p $(@D)
-	as $(ASFLAGS)	-o $@ $^
+	as $(ASFLAGS) -o $@ $^
 kernel.bin : linker.ld $(OBJECTS)
 	ld  $(LDFLAGS)	-T $< -o $@ $(OBJECTS)
 kernel.iso : kernel.bin 
@@ -53,7 +52,7 @@ kernel.iso : kernel.bin
 	echo 'set tiemout=0' > iso/boot/grub/grub.cfg
 	echo 'set default=0' >> iso/boot/grub/grub.cfg
 	echo '' >> iso/boot/grub/grub.cfg
-	echo 'menuentry "My OS" {' >> iso/boot/grub/grub.cfg
+	echo 'menuentry "My own operating system" {' >> iso/boot/grub/grub.cfg
 	echo ' multiboot /boot/kernel.bin' >> iso/boot/grub/grub.cfg
 	echo 'boot' >> iso/boot/grub/grub.cfg
 	echo '}' >> iso/boot/grub/grub.cfg

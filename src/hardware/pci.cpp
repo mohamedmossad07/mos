@@ -9,7 +9,7 @@ PCI::PCI():
 CMDPort(0xCF8),
 dataPort(0XCFC)
 {
-
+    printf("Initializing PCI...\n");
 }
 PCI::~PCI(){}
 

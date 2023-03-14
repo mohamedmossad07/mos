@@ -17,16 +17,12 @@ ATA::ATA(uint16_t portBase,bool master)
 {
 bytePSec=512;
 this->master=master;
+    printf("Initializing ATA driver...\n");
 }
 ATA::~ATA(){
-
 }
 void ATA::identify(){
-     printfHex(sectorCountPort.read());printf("\n");
-     printfHex(lbaHiPort.read());printf("\n");
-     printfHex(lbaMidPort.read());printf("\n");
-     printfHex(lbaLowPort.read());
-
+     printf("Identifying ATA driver..");
 }
 void ATA::read28(uint32_t sec,uint8_t* data,int count){
     if(sec&0xf0000000)return;

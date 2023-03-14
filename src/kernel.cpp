@@ -169,7 +169,7 @@ extern "C" void Main(void *MB_structure, uint32_t magic_num)
     MemoryManager memMgr(heap, (((size_t)MB_structure) + 8) * 1024 - heap - 1024 * 10);
     // printf("heap: 0x");
     // printfHex((heap >> 24) & 0xFF);
-    // printfHex((heap >> 16) & 0xFF);
+    // printfHex((heap >> 16) & 0xFF);x
     // printfHex((heap >> 8 ) & 0xFF);
     // printfHex((heap      ) & 0xFF);
 

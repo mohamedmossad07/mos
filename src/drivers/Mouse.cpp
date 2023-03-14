@@ -14,7 +14,7 @@ CMDPort(0x64),
 dataPort(0x60),
 handler(_handler)
     {
- 
+    printf("Initializing Mouse driver...\n");
 }
 Mouse::~Mouse(){}
 void Mouse::install(){

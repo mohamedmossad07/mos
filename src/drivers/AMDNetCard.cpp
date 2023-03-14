@@ -15,6 +15,7 @@ AMDNetCard::AMDNetCard(PCIDeviceDescriptor *dev, InterruptManager *im) : Driver(
                                                                          currentRcvBuffer(0),
                                                                          currentSendBuffer(0)
 {
+    printf("Initializing Network Card driver...\n");
     this->handler = 0;
     uint64_t MAC0 = MACAddress0Port.read() % 256;
     uint64_t MAC1 = MACAddress0Port.read() / 256;
